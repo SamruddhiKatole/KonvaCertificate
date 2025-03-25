@@ -28,8 +28,12 @@ import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 
 import PageThumbnail from './PageThumbnail';
 import TemplateSelector from './TemplateSelector';
-import { containedBtnStyle } from '../utils/constants';
-
+// import { containedBtnStyle } from '../CertificateDesigner';
+const containedBtnStyle = {
+  backgroundColor: '#FA6551',
+  color: '#fff',
+  '&:hover': { backgroundColor: '#FA6551' }
+};
 const LeftPanel = (props) => {
   const {
     activeTab,
